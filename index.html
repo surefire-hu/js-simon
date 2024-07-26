@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titolo</title>
+    <title>Simon Says</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- container gioco -->
+    <div id="game-container">
+        <h1>Gioco di Memoria</h1>
+        <div id="numbers-display"></div>
+        <div id="timer"></div>
+        <div id="guess-section">
+            <input type="number" id="guess-input" placeholder="Inserisci un numero">
+            <button id="submit-guess">Invia</button>
+        </div>
+        <div id="result"></div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

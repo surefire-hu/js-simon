@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+/* container gioco */
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#numbers-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#guess-section {
+    display: none;
+}
+
+#guess-input {
+    font-size: 16px;
+    padding: 5px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#submit-guess {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
